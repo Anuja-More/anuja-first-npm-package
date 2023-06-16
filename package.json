@@ -1,0 +1,29 @@
+{
+  "name": "my-first-npm-package",
+  "version": "1.0.0",
+  "description": "colored console logs",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anuja-More/anuja-first-npm-package.git"
+  },
+  "keywords": [
+    "colorified console logs",
+    "color with colored console logs"
+  ],
+  "author": "Anuja Ajit More <anujamore2017@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anuja-More/anuja-first-npm-package/issues"
+  },
+  "homepage": "https://github.com/Anuja-More/anuja-first-npm-package#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "files": ["lib/**/*"]
+}
