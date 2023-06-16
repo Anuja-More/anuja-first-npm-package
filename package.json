@@ -1,5 +1,5 @@
 {
-  "name": "my-first-npm-package",
+  "name": "anuja-more-first-npm-package-console-cool-colors",
   "version": "1.0.0",
   "description": "colored console logs",
   "main": "lib/index.js",
